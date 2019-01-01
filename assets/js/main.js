@@ -43,7 +43,7 @@
 			try {
 				$('.ripples').ripples({
 					resolution: 256,
-					perturbance: 0.9,
+					perturbance: 0.05,
 					dropRadius: 10
 				});
 			}
