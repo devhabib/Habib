@@ -1,204 +1,119 @@
 /* XL Device :1200px. 1170 */
+@media screen and (max-width: 768px){
+	
+}
 /* LG Device :992px. 970px */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
 
 
 /* MD Device :768px. 750px */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
 
 
 /* Mobile Layout: 320px. 300px */
+@media only screen and (max-width: 767px) { 
+.rounded-circle {
+	width: 30px;
+	margin-left: -5px;
+}
+header{
+	display: none;
+}
+p{
+	font-size: 14px;
+}
+.logo{
+	display: block;
+}
+.slicknav_menu {
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9999;
+	width: 100%;
+}
+#home {
+	height: 25vh;
+}
+.home-content {
+	margin-top: 80px;
+}
+.btn-success {
+	font-size: 13px;
+	padding: 5px 10px;
+}
+.home-content h1 {
+	font-size: 20px;
+}
+.home-content p {
+	font-size: 14px;
+}
+.btn-text, button {
+	font-size: 13px;
+	padding: 8px 10px;
+}
+.about_content p, .single_blog p {
+	font-size: 14px;
+}
+form {
+	padding: 0 5px;
+}
+.single_blog p {
+	padding-top: 0;
+}
+footer {
+	height: 50px;
+	padding: 15px 0px;
+}
+.other_home {
+	height: 20vh;
+}
+.other_home p {
+	font-size: 15px;
+	line-height: 20vh;
+}
+.nav-tabs {
+	font-size: 10px;
+	margin-top: 10px;
+}
+#nav-overview .single_blog {
+	width: 100%;
+}
+#nav-overview .table {
+	width: 100%;
+}
+#nav-advertisement table {
+	width: 100%;
+}
+#nav-blog .single_blog {
+	width: 100%;
+	margin-top: 10px;
+}
+.slicknav_nav ul {
+	margin: -40px 0px 0 -20px;
+}
+.notification_number {
+	top: 73%;
+	right: 87%;
+}
+.fixed_top {
+	right: 10px;
+}
+
+.slicknav_nav .slicknav_arrow {
+	display: none;
+}
+}
 /* Wide Mobile Layout: 480px. 450px */
-@media screen and (max-width: 768px) {}
-@media (min-width: 992px) and (max-width: 1200px) {
-    nav ul li {
-        padding: 10px
-    }
-    .heading h1 span:after {
-        left: 65%
-    }
-    .heading h1 span:before {
-        left: 35%
-    }
-    .cv p {
-        font-size: 14px
-    }
-    #services .heading h1 span:after {
-        left: 63%
-    }
-    #services .heading h1 span:before {
-        left: 37%
-    }
-    .single_services i {
-        font-size: 40px
-    }
-    .single_services h2 {
-        font-size: 14px;
-        letter-spacing: 0px
-    }
-    .single_services p {
-        font-size: 12px;
-        letter-spacing: 0px
-    }
-    .btn {
-        font-size: 13px
-    }
-    .year h3 {
-        font-size: 30px
-    }
-    .education_content h4 {
-        font-size: 20px
-    }
-    .education_content p span {
-        font-size: 14px
-    }
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+	
 }
-@media (min-width: 768px) and (max-width: 991px) {
-    nav ul li {
-        padding: 10px
-    }
-    .heading h1 {
-        font-size: 40px
-    }
-    .heading h1 span:before {
-        left: 31%
-    }
-    .heading h1 span:after {
-        left: 69%
-    }
-    .cv p {
-        font-size: 14px
-    }
-    .cv p span {
-        font-size: 13px;
-        letter-spacing: 0;
-        margin-left: 5px
-    }
-    .single_services i {
-        font-size: 40px
-    }
-    .single_services h2 {
-        font-size: 14px;
-        letter-spacing: 0px
-    }
-    .single_services p {
-        font-size: 12px;
-        letter-spacing: 0px
-    }
-    .btn {
-        font-size: 13px
-    }
-    .year h3 {
-        font-size: 30px
-    }
-    .education_content h4 {
-        font-size: 20px
-    }
-    .education_content p span {
-        font-size: 14px
-    }
-    #services .heading h1 span:before {
-        left: 33%
-    }
-    #services .heading h1 span:after {
-        left: 67%
-    }
-    #services .heading h1, #contact .heading h1 {
-        font-size: 40px
-    }
-    .contact-details h1 {
-        font-size: 28px
-    }
-    .contact-details p {
-        font-size: 13px
-    }
-}
-@media only screen and (max-width: 767px) {
-    header {
-        display: none
-    }
-    .logo {
-        display: block
-    }
-    .slicknav_menu {
-        display: block;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 9999;
-        width: 100%
-    }
-    .home_content h1 {
-        font-size: 19px
-    }
-    .home_content h3 {
-        font-size: 16px
-    }
-    .heading h1, #services .heading h1 {
-        font-size: 22px
-    }
-    .heading h1 span:before, #services .heading h1 span:before {
-        width: 10px;
-        height: 10px;
-        left: 15%
-    }
-    .heading h1 span:after, #services .heading h1 span:after {
-        width: 10px;
-        height: 10px;
-        left: 84%
-    }
-    .text-left h4 {
-        font-size: 18px
-    }
-    .cv p {
-        font-size: 11px;
-        letter-spacing: 0px
-    }
-    .cv p span {
-        margin-left: 5px
-    }
-    .single_services i {
-        font-size: 30px;
-        margin-bottom: 5px
-    }
-    .single_services {
-        margin-bottom: 10px;
-        padding: 5px
-    }
-    .btn {
-        font-size: 14px
-    }
-    .education_main {
-        padding: 5px;
-        margin: 0 5px;
-        border-radius: 5px
-    }
-    .education_content h4 {
-        font-size: 16px
-    }
-    .year h3 {
-        font-size: 25px
-    }
-    .education_content p {
-        font-size: 11px
-    }
-    .education_content p span {
-        font-size: 12px
-    }
-    #services .heading h1, #contact .heading h1 {
-        font-size: 21px
-    }
-    .contact-details h1 {
-        font-size: 22px;
-        margin-top: 10px
-    }
-    .contact-details p {
-        font-size: 12px
-    }
-    footer p {
-        margin: 10px;
-        font-size: 12px
-    }
-}
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 
 
