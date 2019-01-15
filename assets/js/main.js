@@ -43,7 +43,7 @@
 			try {
 				$('.ripples').ripples({
 					resolution: 256,
-					perturbance: 0.05,
+					perturbance: 0.9,
 					dropRadius: 10
 				});
 			}
@@ -84,6 +84,18 @@
 		new TypeIt('.type-it', {
 		    strings: 'Habibur Rahman',
 		    loop: true
+		});
+
+		// Isotope click function
+		$('.iso-nav').click(function(){
+	        $('.iso-nav').removeClass('active');
+	        $(this).addClass('active');
+
+	        var selector = $(this).attr('data-filter');
+	        $('.iso-items').isotope({
+	            filter: selector
+	        });
+	        return false;
 		});
 	});
 
